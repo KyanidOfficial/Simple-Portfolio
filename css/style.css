@@ -1,0 +1,105 @@
+/* fonts */
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+/*///*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 0;
+}
+/*///*/
+
+body {
+    margin: 0;
+    font-size: 15px;
+    background-color: #362f2f;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+/* sections */
+
+section {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 3em 3em;
+    margin-bottom: 13em;
+}
+
+section h2 {
+    color: white;
+    font-family: Poppins;
+    font-size: 3em;
+    justify-self: center;
+}
+
+section .ab-me__h2 {
+    justify-self: start;
+}
+
+section p {
+    color: #eee;
+    font-family: Poppins;
+}
+/*///*/
+
+/* card */
+
+section .list {
+    color: #eee;
+    font-family: Poppins;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    gap: 10px;
+}
+
+section .list .card {
+    justify-content: center;
+    background-color: #201c1c;
+    box-sizing: content-box;
+    border-radius: 1em;
+    padding: 4em 2em;
+    width: auto;
+    height: auto;
+    transition: all .2s;
+}
+
+section .list .card:hover {
+    background-color: #241f1f;
+    transform: scale(1.01);
+}
+
+section .list .card .content {
+    margin: auto;
+}
+
+section .list .card .button {
+    background-color: #141212;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: all .2s;
+}
+
+section .list .card .button:hover {
+    transform: scale(1.1);
+    background-color: #312f2f;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+/*///*/
