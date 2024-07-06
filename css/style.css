@@ -7,6 +7,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 /* scrollbar */
@@ -102,4 +103,27 @@ section .list .card .button:hover {
 ::-webkit-scrollbar-thumb {
     background-color: black;
 }
+/*///*/
+
+/* Responsive */
+
+@media all and (max-width: 1024px) {
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section .list {
+        grid-template-columns: repeat(2, 300px);
+
+    }
+}
+
+@media all and (max-width: 767px) {
+    section .list {
+        grid-template-columns: repeat(1, 220px);
+
+    }
+}
+
 /*///*/
