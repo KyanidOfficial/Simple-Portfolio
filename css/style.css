@@ -121,7 +121,7 @@ section .list .card .button:hover {
 
 @media all and (max-width: 767px) {
     section .list {
-        grid-template-columns: repeat(1, 225px);
+        grid-template-columns: repeat(1, 230px);
 
     }
 }
