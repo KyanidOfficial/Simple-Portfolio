@@ -16,6 +16,12 @@
 }
 /*///*/
 
+a {
+    text-decoration: none;
+    color: #eee;
+    font-family: Poppins;
+}
+
 body {
     margin: 0;
     font-size: 15px;
@@ -80,7 +86,6 @@ section .list .card {
 
 section .list .card:hover {
     background-color: #241f1f;
-    transform: scale(1.01);
 }
 
 section .list .card .content {
@@ -89,6 +94,7 @@ section .list .card .content {
 
 section .list .card .button {
     background-color: #141212;
+    color: #eee;
     margin-top: 10px;
     border-radius: 5px;
     padding: 5px 5px;
@@ -96,8 +102,7 @@ section .list .card .button {
 }
 
 section .list .card .button:hover {
-    transform: scale(1.1);
-    background-color: #312f2f;
+    background-color: #272525;
 }
 
 ::-webkit-scrollbar-thumb {
